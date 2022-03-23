@@ -23,8 +23,80 @@
     <!---->
     <title>Vince Lebon's Digital Business Card</title>
     <style>
-      #body {
+          @font-face {
         font-family: 'Basis Grotesque Pro';
+        src: url('/src/BasisGrotesquePro-BoldItalic.woff2') format('woff2'),
+            url('/src/BasisGrotesquePro-BoldItalic.woff') format('woff');
+        font-weight: bold;
+        font-style: italic;
+        font-display: swap;
+        }
+
+        @font-face {
+            font-family: 'Basis Grotesque Pro';
+            src: url('/src/BasisGrotesquePro-LightItalic.woff2') format('woff2'),
+                url('/src/BasisGrotesquePro-LightItalic.woff') format('woff');
+            font-weight: 300;
+            font-style: italic;
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: 'Basis Grotesque Pro';
+            src: url('/src/BasisGrotesquePro-Bold.woff2') format('woff2'),
+                url('/src/BasisGrotesquePro-Bold.woff') format('woff');
+            font-weight: bold;
+            font-style: normal;
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: 'Basis Grotesque Pro';
+            src: url('/src/BasisGrotesquePro-MediumItalic.woff2') format('woff2'),
+                url('/src/BasisGrotesquePro-MediumItalic.woff') format('woff');
+            font-weight: 500;
+            font-style: italic;
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: 'Basis Grotesque Pro';
+            src: url('/src/BasisGrotesquePro-Medium.woff2') format('woff2'),
+                url('/src/BasisGrotesquePro-Medium.woff') format('woff');
+            font-weight: 500;
+            font-style: normal;
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: 'Basis Grotesque Pro';
+            src: url('/src/BasisGrotesquePro-Light.woff2') format('woff2'),
+                url('/src/BasisGrotesquePro-Light.woff') format('woff');
+            font-weight: 300;
+            font-style: normal;
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: 'Basis Grotesque Pro';
+            src: url('/src/BasisGrotesquePro-Italic.woff2') format('woff2'),
+                url('/src/BasisGrotesquePro-Italic.woff') format('woff');
+            font-weight: normal;
+            font-style: italic;
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: 'Basis Grotesque Pro';
+            src: url('/src/BasisGrotesquePro-Regular.woff2') format('woff2'),
+                url('/src/BasisGrotesquePro-Regular.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+            font-display: swap;
+        }
+
+      #body {
+        font-family: 'Basis Grotesque Pro', sans-serif;
       }
       input[type="range"]::-moz-range-track {
         background: none;
